@@ -3,9 +3,17 @@ package paquete5;
 
 public class EstudiantePresencial extends Estudiante{
     
-    int numeroCreditos;
-    double costoCredito;
-    double matriculaPresencial;
+    private int numeroCreditos;
+    private double costoCredito;
+    private double matriculaPresencial;
+    
+    public EstudiantePresencial(String n, String ap, String iden, int e, 
+            int Cdr, double Cd){
+        super(n, ap, iden, e);
+        numeroCreditos = Cdr;
+        costoCredito = Cd;
+    }
+ 
     
     //  Métodos establecer y calcular para los datos o atributos de la clase
     // 2.  Método establecerNumeroCreditos(numero: Real)

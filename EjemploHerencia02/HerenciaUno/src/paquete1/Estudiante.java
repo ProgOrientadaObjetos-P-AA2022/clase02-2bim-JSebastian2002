@@ -5,6 +5,7 @@ public class Estudiante {
     // 1.  Declarar
     // se declaran datos o atributos con visibilidad protegido
     // # nombresEstudiante: Cadena
+    
     protected String nombresEstudiante;
     // # apellidosEstudiante: Cadena
     protected String apellidosEstudiante;
@@ -13,9 +14,7 @@ public class Estudiante {
     // # edadEstudiante: Entero
     protected int edadEstudiante;
     
-
     //  Métodos establecer y calcular para los datos o atributos de la clase
-    
     // 2.  Método establecerNombresEstudiante(nom: Cadena)
     public void establecerNombresEstudiante(String nom){
         nombresEstudiante = nom;
