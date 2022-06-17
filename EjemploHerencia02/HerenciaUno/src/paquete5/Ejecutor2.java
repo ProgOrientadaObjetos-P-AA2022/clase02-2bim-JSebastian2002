@@ -20,11 +20,11 @@ public class Ejecutor2 {
         double costoCreditos = 50.5;
         
                 
-        EstudiantePresencial estDistancia = new EstudiantePresencial(nombre,
+        EstudiantePresencial estPresencial = new EstudiantePresencial(nombre,
                 apellido, identificacion, edad, numCreditos, costoCreditos);
         
-        estDistancia.calcularMatriculaDistancia();
+        estPresencial.calcularMatriculaPresencial();
         
-        System.out.println(estDistancia);
+        System.out.println(estPresencial);
     }
 }
